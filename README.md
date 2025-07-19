@@ -1,5 +1,13 @@
 # dotfiles
 
+## Installation
+
+```bash
+git clone https://github.com/tonkaew131/dotfiles.git ~/.dotfiles
+cd ~/.dotfiles
+stow .
+```
+
 ## Reference
 
 - [How I manage my dotfiles using GNU Stow](https://tamerlan.dev/how-i-manage-my-dotfiles-using-gnu-stow/)
