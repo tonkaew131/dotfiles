@@ -105,6 +105,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Setup some common aliases
 alias ll='ls -la'
+alias lz='lazygit'
 
 # Auto start tmux if not already in a session, https://unix.stackexchange.com/a/113768
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
@@ -112,3 +113,10 @@ if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] &&
 fi
 
 export PATH=$PATH:$HOME/.spicetify
+
+# bun completions
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
