@@ -4,3 +4,9 @@
 [submodule ".nano/nanorc"]
 	path = .nano/nanorc
 	url = https://github.com/scopatz/nanorc.git
+[submodule ".oh-my-zsh/custom/plugins/zsh-autosuggestions"]
+	path = .oh-my-zsh/custom/plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule ".zsh/zsh-syntax-highlighting"]
+	path = .zsh/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
