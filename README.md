@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-git clone https://github.com/tonkaew131/dotfiles.git ~/.dotfiles
+git clone --recurse-submodules https://github.com/tonkaew131/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 stow .
 ```
