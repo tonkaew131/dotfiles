@@ -74,6 +74,7 @@ plugins=(
     git
     zsh-autosuggestions
     conda-zsh-completion
+    rust
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -144,5 +145,6 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+PS1=$(echo "$PS1" | perl -pe 's/^\(base\)\s*//' )
 
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
