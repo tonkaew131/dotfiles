@@ -24,9 +24,13 @@ Install tpm plugins for tmux:
 
 ## Usage
 
-Right click on the terminal to split the terminal window.
+- Right click on the terminal to split the terminal window.
 
-![tmux context menu](assets/tmux-context-menu.png)
+  ![tmux context menu](assets/tmux-context-menu.png)
+
+- Highlight text using left click and release to copy to clipboard.
+
+  ![Copy to clipboard](assets/copy-to-clipboard.png)
 
 ## Uninstallation
 
