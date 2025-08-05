@@ -32,6 +32,10 @@ Install tpm plugins for tmux:
 
   ![Copy to clipboard](assets/copy-to-clipboard.png)
 
+- Start typing to get auto suggestions
+
+  ![Auto suggestions](assets/auto-suggestions.png)
+
 ## Uninstallation
 
 ```bash
