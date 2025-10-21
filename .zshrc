@@ -148,3 +148,9 @@ unset __conda_setup
 PS1=$(echo "$PS1" | perl -pe 's/^\(base\)\s*//' )
 
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/tonkaew131/.lmstudio/bin"
+# End of LM Studio CLI section
+
+export PATH="/opt/homebrew/opt/libpq/bin:$PATH"
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
